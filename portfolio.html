@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/png" href="./favicon.png" />
+    <title>Портфолио - WebStudio</title>
+  </head>
+  <body>
+    <!-- хедер -->
+    <header>
+      <div class="container">
+        <nav class="nav">
+          <a lang="en" href="./index.html" class="logo animate__animated animate__backInLeft"
+            >Web<span class="logo-word_black">Studio</span></a
+          >
+          <ul class="site-nav list">
+            <li><a href="./index.html" class="page">студия</a></li>
+            <li><a href="./portfolio.html" class="page current">портфолио</a></li>
+            <li><a href="./contacts" class="page">контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="page">
+              <svg class="header-icon">
+                <use href="./images/svg/symbol-defs.svg#envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="page">
+              <svg class="header-icon">
+                <use href="./images/svg/symbol-defs.svg#smartphone"></use></svg
+              >+38 (096) 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1 hidden>категории работ</h1>
+          <ul class="list filter row">
+            <li class="item select">
+              <button type="button" class="button select">все</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button select">веб-сайты</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button select">приложения</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button select">дизайн</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button select">маркетинг</button>
+            </li>
+          </ul>
+          <!-- секція з картинками -->
+          <ul class="list projects row">
+            <li class="list-item">
+              <a class="link" href="#"
+                ><div class="project-thumb">
+                  <img
+                    class="img"
+                    src="./images/portfolio-image/img-port1.jpg"
+                    width="370"
+                    alt="веб сайт открыт на лептопе"
+                  />
+                  <div class="project-description">
+                    <p>
+                      Технокряк это современная площадка распространения коронавируса. Компании
+                      используют эту платформу для цифрового шпионажа и атак на защищённые сервера
+                      конкурентов.
+                    </p>
+                  </div>
+                </div>
+                <div class="content">
+                  <h2 class="name-item">Технокряк</h2>
+                  <p class="category">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="list-item">
+              <a class="link" href="#"
+                ><div class="project-thumb">
+                  <img
+                    class="img"
+                    src="./images/portfolio-image/img-port2.jpg"
+                    width="370"
+                    alt="веб сайт открыт на лептопе"
+                  />
+                  <div class="project-description">
+                    <p>
+                      Это знаменитая битва жителей Нового Орлеана и пришельцев с звезды "Золото".
+                      Состоялась она за некоторыми прогнозами 1690 года до Рождества Христового.
+                    </p>
+                  </div>
+                </div>
+                <div class="content">
+                  <h2 class="name-item">Постер New Orlean vs Golden Star</h2>
+                  <p class="category">дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="list-item">
+              <a class="link" href="#"
+                ><div class="project-thumb">
+                  <img
+                    class="img"
+                    src="./images/portfolio-image/img-port3.jpg"
+                    width="370"
+                    alt="веб сайт открыт на лептопе"
+                  />
+                  <div class="project-description">
+                    <p>
+                      "Британские ученые скрестили рыбу и женщину. Плавать она еще не научилась, но
+                      разговаривать уже не умеет." - лозунг ресторана. Это заведение, где никто не
+                      говорит ртом.
+                    </p>
+                  </div>
+                </div>
+                <div class="content">
+                  <h2 class="name-item">Ресторан Seafood</h2>
+                  <p class="category">приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="list-item">
+              <a class="link" href="#"
+                ><div class="project-thumb">
+                  <img
+                    class="img"
+                    src="./images/portfolio-image/img-port4.jpg"
+                    width="370"
+                    alt="веб сайт открыт на лептопе"
+                  />
+                  <div class="project-description">
+                    <p>
+                      Технокряк это современная площадка распространения коронавируса. Компании
+                      используют эту платформу для цифрового шпионажа и атак на защищённые сервера
+                      конкурентов.
+                    </p>
+                  </div>
+                </div>
+                <div class="content">
+                  <h2 class="name-item">Проект Prime</h2>
+                  <p class="category">маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="list-item">
+              <a class="link" href="#"
+                ><div class="project-thumb">
+                  <img
+                    class="img"
+                    src="./images/portfolio-image/img-port5.jpg"
+                    width="370"
+                    alt="веб сайт открыт на лептопе"
+                  />
+                  <div class="project-description">
+                    <p>
+                      Технокряк это современная площадка распространения коронавируса. Компании
+                      используют эту платформу для цифрового шпионажа и атак на защищённые сервера
+                      конкурентов.
+                    </p>
+                  </div>
+                </div>
+                <div class="content">
+                  <h2 class="name-item">Проект Boxes</h2>
+                  <p class="category">приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="list-item">
+              <a class="link" href="#"
+                ><div class="project-thumb">
+                  <img
+                    class="img"
+                    src="./images/portfolio-image/img-port6.jpg"
+                    width="370"
+                    alt="веб сайт открыт на лептопе"
+                  />
+                  <div class="project-description">
+                    <p>
+                      Школа православного программирования "Кодило". Популярные фреймворки, которые
+                      изучают - Благословение, Крещение, Миропомазанье и все это онлайн!
+                    </p>
+                  </div>
+                </div>
+                <div class="content">
+                  <h2 class="name-item">Inspiration has no Borders</h2>
+                  <p class="category">Веб-сайт</p>
+                </div></a
+              >
+            </li>
+            <li class="list-item">
+              <a class="link" href="#"
+                ><div class="project-thumb">
+                  <img
+                    class="img"
+                    src="./images/portfolio-image/img-port7.jpg"
+                    width="370"
+                    alt="веб сайт открыт на лептопе"
+                  />
+                  <div class="project-description">
+                    <p>
+                      Технокряк это современная площадка распространения коронавируса. Компании
+                      используют эту платформу для цифрового шпионажа и атак на защищённые сервера
+                      конкурентов.
+                    </p>
+                  </div>
+                </div>
+                <div class="content">
+                  <h2 class="name-item">Издание Limited Edition</h2>
+                  <p class="category">дизайн</p>
+                </div></a
+              >
+            </li>
+            <li class="list-item">
+              <a class="link" href="#"
+                ><div class="project-thumb">
+                  <img
+                    class="img"
+                    src="./images/portfolio-image/img-port8.jpg"
+                    width="370"
+                    alt="веб сайт открыт на лептопе"
+                  />
+                  <div class="project-description">
+                    <p>
+                      Технокряк это современная площадка распространения коронавируса. Компании
+                      используют эту платформу для цифрового шпионажа и атак на защищённые сервера
+                      конкурентов.
+                    </p>
+                  </div>
+                </div>
+                <div class="content">
+                  <h2 class="name-item">Проект LAB</h2>
+                  <p class="category">маркетинг</p>
+                </div></a
+              >
+            </li>
+            <li class="list-item">
+              <a class="link" href="#"
+                ><div class="project-thumb">
+                  <img
+                    class="img"
+                    src="./images/portfolio-image/img-port9.jpg"
+                    width="370"
+                    alt="веб сайт открыт на лептопе"
+                  />
+                  <div class="project-description">
+                    <p>
+                      Технокряк это современная площадка распространения коронавируса. Компании
+                      используют эту платформу для цифрового шпионажа и атак на защищённые сервера
+                      конкурентов.
+                    </p>
+                  </div>
+                </div>
+                <div class="content">
+                  <h2 class="name-item">Growing Business</h2>
+                  <p class="category">приложение</p>
+                </div></a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-block">
+      <h2 hidden>Контакты</h2>
+      <div class="container row">
+        <div class="footer-left-box">
+          <a lang="en" href="./index.html" class="logo-footer"
+            >Web<span class="logo-word_white">Studio</span></a
+          >
+          <address class="adress-footer">
+            <p class="footer-place">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul>
+              <li class="footer-list">
+                <a class="footer-mail" href="mailto:info@exemple.com">info@exemple.com</a>
+              </li>
+              <li class="footer-list">
+                <a class="footer-tel" href="tel:+380991111111">+38 (099) 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-center">
+          <h2 class="footer-title">присоединяйтесь</h2>
+          <ul class="social-list list row">
+            <li class="social-item">
+              <a href="" class="social"
+                ><svg class="icon"><use href="./images/svg/symbol-defs.svg#instagram"></use></svg
+              ></a>
+            </li>
+            <li class="social-item">
+              <a href="" class="social">
+                <svg class="icon">
+                  <use href="./images/svg/symbol-defs.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="" class="social"
+                ><svg class="icon"><use href="./images/svg/symbol-defs.svg#facebook"></use></svg
+              ></a>
+            </li>
+            <li class="social-item">
+              <a href="" class="social"
+                ><svg class="icon"><use href="./images/svg/symbol-defs.svg#linkedin"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
