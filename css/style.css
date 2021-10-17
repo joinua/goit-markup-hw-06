@@ -414,6 +414,26 @@ header .container {
   color: #757575;
 }
 
+.modal-submit-btn {
+  display: block;
+  padding: 10px 55px;
+  margin: 0 auto;
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #fff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-submit-btn:hover,
+.modal-submit-btn:focus {
+  background-color: #188ce8;
+}
+
 .row {
   display: flex;
   justify-content: space-between;
